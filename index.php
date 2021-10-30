@@ -25,8 +25,8 @@
     <script>
     // Your web app's Firebase configuration
     var firebaseConfig = {
-    appId: "1:99446038979:web:6876f093329352b3c71d76",
-    apiKey: "AIzaSyDqoyvnqM44fvu4Gvlfc_Dj1Di2VztJxK4",
+    appId: "Your app ID",
+    apiKey: "Your app key",
     authDomain: "phone-auth-76a5e.firebaseapp.com",
     projectId: "phone-auth-76a5e",
     storageBucket: "phone-auth-76a5e.appspot.com",
