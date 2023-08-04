@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Firebase Phone Verification</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <form >
+      <h1>Firebase Phone verification In PHP</h1>
+      <div class="formcontainer">
+      <hr/>
+      <div class="container">
+      <input type="text" id="verificationCode" placeholder="Enter verification code">
+      
+      </div>
+     
+      <button type="button" onclick="codeverify();">Verify code</button>
+    
+    </form>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase.js"></script>
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyDnV-02wRgE5M6l5kPMs5RaBqhLOWbaDEk",
+  authDomain: "phone-number-935e8.firebaseapp.com",
+  projectId: "phone-number-935e8",
+  storageBucket: "phone-number-935e8.appspot.com",
+  messagingSenderId: "882995982399",
+  appId: "1:882995982399:web:f5b829ad5ff3c00cdf488a",
+  measurementId: "G-8E9Z1RLYC3"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+     firebase.analytics();
+</script>
+    <script src="firebase.js" type="text/javascript"></script>
+  </body>
+</html>
